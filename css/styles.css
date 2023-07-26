@@ -20,12 +20,11 @@ body {
 
 .tree .name {
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   margin: 2em;
 }
 
 .tree .links a {
-  font-weight: 400;
   margin: 0.75em auto;
 }
 
