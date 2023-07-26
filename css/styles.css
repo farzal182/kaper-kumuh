@@ -24,6 +24,12 @@ body {
   margin: 2em;
 }
 
+.tree .bio {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 2em;
+}
+
 .tree .links a {
   margin: 0.75em auto;
 }
