@@ -24,7 +24,7 @@ body {
   margin: 2em;
 }
 
-.tree .bio {
+.tree .bio p {
   text-transform: uppercase;
   font-weight: 300;
   margin: 2em;
