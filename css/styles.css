@@ -7,8 +7,11 @@ body {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-  background-color:#000000;
-  background-style:flat;
+  background: color #f7f1f1;
+  background: -webkit-linear-gradient(bottom right, #f7f1f1, #ccfed8d9);
+  background: -moz-linear-gradient(bottom right, #f7f1f1, #ccfed8d9);
+  background: linear-gradient(to top left, #f7f1f1, #ccfed8d9);
+  background-attachment: fixed;
 }
 
 .tree {
@@ -33,10 +36,15 @@ body {
   margin: 0.75em auto;
 }
 
-.tree .footer {
-  margin: 2rem;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
 }
 
-a.btn {
+.btn {
   background-color: #fff;
 }
